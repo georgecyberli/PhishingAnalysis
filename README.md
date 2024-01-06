@@ -35,7 +35,7 @@ Section 2: Artifact Analysis
 
 WHOIS analysis - Performed reverse DNS of 183.90.231.122 shows the domain is from Japan
 
-VirusTotal and WannaBroswer Analysis - Search the full URL on VT shows some security vendors flagged as malicious/phishing with the HTLM status code 403. Confirmed with searchin on WannaBroswer shows HTML code of 403 forbidden.
+VirusTotal and WannaBroswer Analysis - Search the full URL on VT shows some security vendors flagged as malicious/phishing with the HTLM status code 403. Confirmed with searching on WannaBroswer shows HTML code of 403 forbidden.
 
 urlscan.io Analysis - Used URLSCAN to check the link destination shows 403 forbidden page. The main domain is hxxps[://]priorityhealthconsultants[.]com
 
