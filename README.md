@@ -1,30 +1,30 @@
-Phishing Analysis Report - 04/17/2023
+<b>Phishing Analysis Report -</b> 04/17/2023
 
 
 Section 1: Email Description and Artifacts Collected
 =======================================
-Sender Address:
+<b>Sender Address:</b>
 secured_file59848@nhfc.com
 
-Subject Line:
+<b>Subject Line:</b>
 Office Document
 
-Recipient(s):
+<b>Recipient(s):</b>
 embryology@nhfc.com
 
-Sender IP Address:
+<b>Sender IP Address:</b>
 183.90.231.122
 
-Reverse DNS:
+<b>Reverse DNS:</b>
 xb728347@sv341.xbiz.ne.jp
 
-Full URL (sanitized):
+<b>Full URL (sanitized):</b>
 hxxps[://]priorityhealthconsultants[.]com/www/#embryology@nhfc[.]com
 
-Main Domain:
+<b>Main Domain:</b>
 hxxps[://]priorityhealthconsultants[.]com
 
-Email Description:
+<b>Email Description:</b>
 
 The threat actor is using the spoofing tactic to spoof our domain @nhfc.com and sent a generic phishing email or could be a spear phishing because was targetting only our embryology email with no greetings. The email use HTML styling to make it looks legit but it shows a filename generated with HTML (not an actual attachment) with an button to a malicious website.
 
@@ -33,11 +33,11 @@ The threat actor is using the spoofing tactic to spoof our domain @nhfc.com and 
 Section 2: Artifact Analysis
 =======================================
 
-WHOIS analysis - Performed reverse DNS of 183.90.231.122 shows the domain is from Japan
+<b>WHOIS analysis -</b> Performed reverse DNS of 183.90.231.122 shows the domain is from Japan
 
-VirusTotal and WannaBroswer Analysis - Search the full URL on VT shows some security vendors flagged as malicious/phishing with the HTLM status code 403. Confirmed with searching on WannaBroswer shows HTML code of 403 forbidden.
+<b>VirusTotal and WannaBroswer Analysis -</b> Search the full URL on VT shows some security vendors flagged as malicious/phishing with the HTLM status code 403. Confirmed with searching on WannaBroswer shows HTML code of 403 forbidden.
 
-urlscan.io Analysis - Used URLSCAN to check the link destination shows 403 forbidden page. The main domain is hxxps[://]priorityhealthconsultants[.]com
+<b>urlscan.io Analysis -</b> Used URLSCAN to check the link destination shows 403 forbidden page. The main domain is hxxps[://]priorityhealthconsultants[.]com
 
 Figured out the reason how the threat actor was able to spoof our domain with the help of Google Tech. The SPF key was double pasted on our DNS which prevented SPF to scan the incoming email correctly.
 
