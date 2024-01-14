@@ -49,3 +49,11 @@ Section 3: Suggested Defensive Measures
 We blocked the full URL on our firewall as well as the sender IP address so in case a user accidentaly clicked the button, the communication between will be blocked. We also blocked the sender email address from the email gateway since the email is using @nhfc.com so blocking the entire domain might block all legit communication in our domain. No more email from the same sender address will be received in users' inboxes.
 
 In addition, during analysis we found out the SPF configuration was wrongly pasted on our DNS (AWS). We fixed it and the applied changes might take 48 hours to be effective.
+
+
+<br />
+<br />
+<br />
+
+
+<a href="https://github.com/georgecyberli" class="button icon back">Back to Portfolio Page</a>
